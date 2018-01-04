@@ -1,0 +1,18 @@
+# User specific aliases and functions
+
+set nobeep
+set history=30
+
+alias vi vim
+alias h history
+#
+alias rm 'rm -i'
+alias cp 'cp -i'
+alias mv 'mv -i'
+#
+alias l 'ls -alF \!*|more'
+#
+
+
+
+
