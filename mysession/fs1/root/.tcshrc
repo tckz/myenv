@@ -1,0 +1,17 @@
+# .tcshrc
+
+# User specific aliases and functions
+
+alias rm 'rm -i'
+alias cp 'cp -i'
+alias mv 'mv -i'
+
+alias h history
+alias l 'ls -alF \!*|more'
+alias vi vim
+alias view 'vim -R'
+
+set history=30
+
+set prompt='[%n@%m %c]# '
+set path=(/usr/local/ruby-2.2/bin $HOME/gopath/bin $HOME/go1.7/bin $HOME/bin $HOME/.composer/vendor/bin $path)
