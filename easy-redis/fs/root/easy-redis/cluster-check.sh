@@ -3,7 +3,6 @@
 myname=`basename $0`
 mypath=$(cd `dirname $0` && pwd)
 
-# シンボリックリンクで同じディレクトリに置いてある
 redis_trib=$mypath/redis-trib.rb
 
 if [[ ! -x $redis_trib ]]
